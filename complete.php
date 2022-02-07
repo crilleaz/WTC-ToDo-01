@@ -1,6 +1,5 @@
 <?php
 include_once("cfg.php");
-// $con = mysqli_connect('localhost', 'username', 'pppassword', 'todo');
 // Check connection
 if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
